@@ -1,9 +1,11 @@
 {
     "recommendations": [
-        "editorconfig.editorconfig",
-        "ms-python.python",
         "donjayamanne.python-environment-manager",
-        "kevinrose.vsc-python-indent"
+        "editorconfig.editorconfig",
+        "kevinrose.vsc-python-indent",
+        "ms-python.black-formatter",
+        "ms-python.isort",
+        "ms-python.python"
     ],
     "unwantedRecommendations": []
 }
