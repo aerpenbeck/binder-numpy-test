@@ -4,10 +4,7 @@
 # The above will handle all files NOT found below
 
 # Basic .gitattributes for a python repo.
-*.ipynb  text eol=lf
-*.md     text
-*.py     text diff=python
-*.txt    text
+*.py     text eol=lf diff=python
 
 # Exclude files from exporting
 .gitattributes export-ignore
