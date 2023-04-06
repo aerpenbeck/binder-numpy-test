@@ -1,0 +1,15 @@
+# Auto detect text files and perform LF normalization
+* text=auto  eol=lf
+
+# The above will handle all files NOT found below
+
+# Basic .gitattributes for a python repo.
+*.ipynb  text eol=lf
+*.md     text
+*.py     text diff=python
+*.txt    text
+
+# Exclude files from exporting
+.gitattributes export-ignore
+.gitignore     export-ignore
+.gitkeep       export-ignore
